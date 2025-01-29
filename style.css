@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Fontes:
+    Changa
+    Poppins
+    Inter
+*/
+
+/* HEADER */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    color: white;
+}
+
+html{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+}
+
+header .logo{
+    width: 51px;
+    height: 51px;
+}
+
+header .squivy{
+    width: 115px;
+    height: 43px;
+}
+/* FIM HEADER */
+
+/* LANDING PAGE / MAIN */
+.main{
+    background-image: url('fundo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-family: Changa;
+    font-family: 14px;
+    max-width: 240px;
+}
+
+.text p{
+    margin-bottom: 2rem;
+    line-height: 1;
+}
+
+.saibamais{
+    text-decoration: none;
+    border: solid white 4px;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/* FIM LANDING PAGE / MAIN */
