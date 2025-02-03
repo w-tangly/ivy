@@ -10,12 +10,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
     color: white;
 }
 
 html{
     background-color: black;
+    overflow-x: hidden;
 }
 
 header{
@@ -23,22 +24,22 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 6rem;
+    padding: 2rem 12rem;
 }
 
 header .logo{
-    width: 51px;
-    height: 51px;
+    width: 102px;
+    height: 102px;
 }
 
 header .squivy{
-    width: 115px;
-    height: 43px;
+    width: 230px;
+    height: 86px;
 }
 /* FIM HEADER */
 
 /* LANDING PAGE / MAIN */
-.main{
+main .main{
     background-image: url('fundo.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -46,25 +47,56 @@ header .squivy{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 80vh;
+    z-index: 1;
+}
+
+.main .img{
+    align-self: end;
 }
 
 .text{
     font-family: Changa;
-    font-family: 14px;
-    max-width: 240px;
+    font-size: 36px;
+    max-width: 480px;
+}
+
+.text img{
+    width: 482px;
 }
 
 .text p{
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     line-height: 1;
 }
 
 .saibamais{
     text-decoration: none;
-    border: solid white 4px;
-    padding: 10px 30px;
+    border: solid white 8px;
+    padding: 5px 60px;
     font-weight: 600;
-    font-size: 20px;
-    border-radius: 5px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.img img{
+    width: 1112px;
 }
 /* FIM LANDING PAGE / MAIN */
+
+section .hero{
+    background-image: url('./img/Group\ 13.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    z-index: 2;
+    margin-top: -3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.herotxt{
+    padding-top: 3rem;
+}
