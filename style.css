@@ -6,7 +6,7 @@
 */
 
 /* HEADER */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,12 +14,12 @@
     color: white;
 }
 
-html{
+html {
     background-color: black;
     overflow-x: hidden;
 }
 
-header{
+header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,21 +27,22 @@ header{
     padding: 1rem 12rem;
 }
 
-.logo{
+.logo {
     width: 102px;
     height: 102px;
     cursor: pointer;
 }
 
-.squivy{
+.squivy {
     width: 230px;
     height: 86px;
     cursor: pointer;
 }
+
 /* FIM HEADER */
 
 /* LANDING PAGE / MAIN */
-main .main{
+main .main {
     background-image: url('fundo.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -52,26 +53,26 @@ main .main{
     z-index: 1;
 }
 
-.main .porra{
+.main .porra {
     align-self: end;
 }
 
-.text{
+.text {
     font-family: Changa;
     font-size: 36px;
     max-width: 480px;
 }
 
-.text img{
+.text img {
     width: 482px;
 }
 
-.text p{
+.text p {
     margin-bottom: 4rem;
     line-height: 1;
 }
 
-.saibamais{
+.saibamais {
     text-decoration: none;
     border: solid white 8px;
     padding: 5px 60px;
@@ -80,19 +81,21 @@ main .main{
     border-radius: 10px;
 }
 
-.saibamais:hover{
+.saibamais:hover {
     background-color: white;
     color: black;
 }
 
-.porra{
+.porra {
     width: 1112px;
     padding-bottom: 1.1rem;
-    padding-top:-10rem;
+    padding-top: -10rem;
 }
+
 /* FIM LANDING PAGE / MAIN */
 
-section .hero{
+/* INÍCIO HERO */
+section .hero {
     background-image: url('./img/Group\ 13.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -105,20 +108,20 @@ section .hero{
     justify-content: space-between;
 }
 
-.herotxt{
+.herotxt {
     margin: 10rem 20rem;
     max-width: 550px;
 }
 
-.txttitle{
-    color:#513686;
+.txttitle {
+    color: #513686;
     font-family: Changa;
     font-size: 64px;
     line-height: 1;
     margin-bottom: 2rem;
 }
 
-.txtbtn{
+.txtbtn {
     font-family: Changa;
     background-color: #DD4E80;
     border: 8px;
@@ -126,19 +129,154 @@ section .hero{
     padding: 5px 60px;
     font-weight: 600;
     font-size: 40px;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
-.txtbtn:hover{
+.txtbtn:hover {
     background-color: white;
     color: #DD4E80;
     border: none;
 }
 
-.txttxt{
+.txttxt {
     font-family: Poppins;
     color: black;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 2rem;
 }
+
+/* FIM HERO */
+
+/* INICIO SECTION */
+section .squad {
+    background-image: url('./img/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 50;
+    margin-top: -10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -.1rem;
+    height: 100vh;
+    width: 100vw;
+}
+
+.squadtxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 25vw;
+    gap: 20px;
+}
+
+.squadh1 {
+    font-family: Changa;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1;
+    color: #DD4E80;
+}
+
+.squadp {
+    font-family: Poppins;
+    font-size: 24px;
+}
+
+.squadbtn {
+    color: #005596;
+    text-decoration: none;
+    border: 8px;
+    border-radius: 10px;
+    background-color: #51B9A3;
+    text-align: center;
+    padding: 5px 60px;
+    font-family: Changa;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.squadbtn:hover {
+    background-color: #005596;
+    color: #51B9A3;
+    border: none;
+}
+
+.squadimg img {
+    width: 672px;
+    height: 672px;
+}
+
+/* FIM SECTION */
+
+/* INICIO FOOTER */
+footer {
+    background-color: black;
+    font-family: Changa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.whotitle {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.whotxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Poppins;
+    max-width: 18vw;
+    padding: 2rem 0;
+    font-size: 20px;
+}
+
+.who img {
+    width: 100px;
+    height: 100px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: 30px;
+}
+
+.linkstitle {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.contatotitle {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.contatotxt {
+    font-size: 28px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.socialmedia a img {
+    width: 60px;
+    height: 60px;
+}
+/*  FIM HEADER */
