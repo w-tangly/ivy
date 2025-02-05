@@ -24,17 +24,19 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 12rem;
+    padding: 1rem 12rem;
 }
 
-header .logo{
+.logo{
     width: 102px;
     height: 102px;
+    cursor: pointer;
 }
 
-header .squivy{
+.squivy{
     width: 230px;
     height: 86px;
+    cursor: pointer;
 }
 /* FIM HEADER */
 
@@ -50,7 +52,7 @@ main .main{
     z-index: 1;
 }
 
-.main .img{
+.main .porra{
     align-self: end;
 }
 
@@ -78,8 +80,15 @@ main .main{
     border-radius: 10px;
 }
 
-.img img{
+.saibamais:hover{
+    background-color: white;
+    color: black;
+}
+
+.porra{
     width: 1112px;
+    padding-bottom: 1.1rem;
+    padding-top:-10rem;
 }
 /* FIM LANDING PAGE / MAIN */
 
@@ -88,14 +97,48 @@ section .hero{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 120vh;
     overflow-x: hidden;
-    z-index: 2;
-    margin-top: -3rem;
+    z-index: 10;
+    margin-top: -3.8rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .herotxt{
-    padding-top: 3rem;
+    margin: 10rem 20rem;
+    max-width: 550px;
+}
+
+.txttitle{
+    color:#513686;
+    font-family: Changa;
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.txtbtn{
+    font-family: Changa;
+    background-color: #DD4E80;
+    border: 8px;
+    text-decoration: none;
+    padding: 5px 60px;
+    font-weight: 600;
+    font-size: 40px;
+    border-radius:10px;
+}
+
+.txtbtn:hover{
+    background-color: white;
+    color: #DD4E80;
+    border: none;
+}
+
+.txttxt{
+    font-family: Poppins;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2rem;
 }
