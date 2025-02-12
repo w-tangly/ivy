@@ -289,6 +289,7 @@ footer {
 
     body {
         font-size: 1.6rem;
+        max-width: 100vw;
     }
 
     /* HEADER */
@@ -321,6 +322,10 @@ footer {
 
     .text img {
         width: 125px;
+    }
+
+    main{
+        max-width: 100vw;
     }
 
     .main {
