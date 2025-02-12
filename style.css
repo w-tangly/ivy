@@ -462,6 +462,7 @@ footer {
         padding: 1rem;
         font-size: 1rem;
         max-width: 30vw;
+        gap: 1rem;
     }
 
     .linkstitle {
@@ -471,6 +472,7 @@ footer {
     .contato {
         padding: 1rem;
         max-width: 40vw;
+        gap: 1rem;
     }
 
     .contatotitle {
@@ -482,6 +484,7 @@ footer {
     }
 
     .socialmedia {
+        margin-top: 3rem;
         gap: 10px;
     }
 
