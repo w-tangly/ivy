@@ -460,6 +460,7 @@ footer {
     .links {
         padding: 1rem;
         font-size: 1rem;
+        max-width: 30vw;
     }
 
     .linkstitle {
@@ -468,6 +469,7 @@ footer {
 
     .contato {
         padding: 1rem;
+        max-width: 30vw;
     }
 
     .contatotitle {
