@@ -450,6 +450,7 @@ footer {
         max-width: 18vw;
         padding: 1rem 0;
         font-size: 1rem;
+        max-width: 30vw;
     }
 
     .who img {
@@ -469,7 +470,7 @@ footer {
 
     .contato {
         padding: 1rem;
-        max-width: 30vw;
+        max-width: 40vw;
     }
 
     .contatotitle {
